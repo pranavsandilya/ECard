@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>25th Anniversary Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.ibb.co/fDGqTzT/elegant-floral-gold.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Playfair Display', serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.96);
+      padding: 40px 30px;
+      border-radius: 25px;
+      max-width: 90%;
+      width: 700px;
+      text-align: center;
+      border: 3px solid #d4af37;
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+      animation: glow 3s ease-in-out infinite alternate;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 48px;
+      color: #bfa437;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.7;
+      margin: 10px 0;
+    }
+
+    .highlight {
+      color: #bfa437;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      font-size: 16px;
+      color: #777;
+    }
+
+    a.location-link {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.location-link:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes glow {
+      from { box-shadow: 0 0 15px rgba(212, 175, 55, 0.3); }
+      to { box-shadow: 0 0 30px rgba(212, 175, 55, 0.6); }
+    }
+
+    /* Mobile optimization */
+    @media (max-width: 480px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .footer {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>You're Invited!</h1>
+    <h2>25th Wedding Anniversary Celebration</h2>
+    <p>
+      Please join us for an evening of celebration and togetherness<br>
+      as we honor the <span class="highlight">Silver Jubilee</span> of<br>
+      <span class="highlight">Mr. & Mrs. Thakur</span>
+    </p>
+    <p>
+      A journey of 25 years of love, joy, and unity.
+    </p>
+    <p>
+      📅 <span class="highlight">Date:</span> Tuesday, 9th July 2025<br>
+      ⏰ <span class="highlight">Time:</span> 6:00 PM onwards<br>
+      📍 <span class="highlight">Venue:</span><br>
+      The Royal Palace, C 24, Sector 13, Vasundhara, Ghaziabad
+    </p>
+    <p>
+      👉 <a class="location-link" href="https://maps.app.goo.gl/Q7j8RE6DkJ8dzU8w8" target="_blank">View Location on Google Maps</a>
+    </p>
+    <div class="footer">
+      We look forward to your gracious presence ✨<br>— Pranav
+    </div>
+  </div>
+</body>
+</html>
